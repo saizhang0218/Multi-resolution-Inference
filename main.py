@@ -217,20 +217,7 @@ def main_worker(gpu, ngpus_per_node, args, fdir):
         batch_size=args.batch_size, shuffle=False,
         num_workers=args.workers, pin_memory=True)
     
-    '''
-    print('==> Using Pytorch Dataset')
-    input_size = 224  # image resolution for resnets
-    import torchvision
-    import torchvision.transforms as transforms
-    import torchvision.datasets as datasets
-    traindir = os.path.join(args.data, 'train')
-    valdir = os.path.join(args.data, 'val')
-    normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
-    torchvision.set_image_backend('accimage')    
-    train_loader, val_loader = dataset.load_data('ImageNet', args.batch_size, 
-                                                num_workers = 12, 
-                                                distributed=False, test_only=False)   
-    '''
+
     #############################
     # Writing the summary
     #############################
