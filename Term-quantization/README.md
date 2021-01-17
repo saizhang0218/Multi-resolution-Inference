@@ -1,13 +1,5 @@
-# Multi-resolution-Inference
-
-This repository is the official implementation of "Field-Configurable Multi-resolution Inference: Rethinking Quantization" published in ASPLOS 2021. 
-
-### Requirements
-
-Pytorch 1.0.0 with CUDA
-
 ## Training
-This repo includes the multi-reseolution training of resnet-18 and resnet-50. 
+This repo includes the multi-reseolution training with term quantization for resnet-18 and resnet-50. 
 
 To train the meta multi-resolution model(s) in the paper, run this command:
 
