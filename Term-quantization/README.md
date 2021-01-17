@@ -11,6 +11,7 @@ python main.py -a model_name save_path
 
 > 📋save_path is the location of the result folder.
 
+> 📋term-budgets can be modified in main.py.
 
 ## Code Explanation
 
