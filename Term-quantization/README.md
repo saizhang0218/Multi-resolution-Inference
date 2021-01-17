@@ -1,3 +1,7 @@
+## Requirements
+
+Pytorch 1.0.0 with CUDA
+
 ## Training
 This repo includes the multi-reseolution training with term quantization for resnet-18 and resnet-50. 
 
