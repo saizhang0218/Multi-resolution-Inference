@@ -1,4 +1,4 @@
-# Multi-resolution-Inference
+# Multi-resolution Inference
 
 This repository is the official implementation of "Training for Multi-resolution Inference Using Reusable Quantization Terms" published in ASPLOS 2021. 
 
